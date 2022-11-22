@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: patryk
+      changes:
+        - sqlFile:
+            path: sql/001_add_candidates_table.sql
+  - changeSet:
+      id: 2
+      author: patryk
+      changes:
+        - sqlFile:
+            path: sql/002_add_voters_table.sql
